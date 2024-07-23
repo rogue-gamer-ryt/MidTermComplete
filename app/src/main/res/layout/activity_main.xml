@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/profileIcon"
+        android:layout_width="387dp"
+        android:layout_height="200dp"
+        android:layout_gravity="start"
+        android:src="@drawable/baseline_account_circle_24" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What is your Name?" />
+
+
+    <EditText
+        android:id="@+id/uname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name" />
+
+    <Button
+        android:id="@+id/btnSubName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Name" />
+
+    <Button
+        android:id="@+id/btnTodo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Todo List" />
+
+    <Button
+        android:id="@+id/btnCalculator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Calculator" />
+</LinearLayout>
